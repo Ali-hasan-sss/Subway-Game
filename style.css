@@ -65,7 +65,7 @@
   background-color: #111;
   top: -100px;
   left: 100px;
-  animation: moveDown 2s infinite;
+  animation: moveDown 3s infinite;
 }
 @keyframes moveDown{
   0%{
