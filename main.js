@@ -44,6 +44,25 @@ if(playerLeft == blockLeft && blocktop < 450 && blocktop > 310 ){
   }  
 }
 setInterval(ckeck,1);
+//speed buttom//
+let speedup =document.getElementById('speedup');
+let speeddown =document.getElementById('speeddown');
+
+speedup.onclick = function(){
+  let speed =parseInt(window.getComputedStyle(block).getPropertyValue("animation-duration"));
+  if(speed >1){
+ let speedu= speed -1;
+block.style.animationDuration=speedu+"s";
+str.innerHTML=speedu;
+ }
+}
+
+speeddown.onclick = function(){
+  let speed =parseInt(window.getComputedStyle(block).getPropertyValue("animation-duration"));
+ let speedu= speed +1;
+block.style.animationDuration=speedu+"s";
+ str.innerHTML=speedu;
+ }
 
 
 
