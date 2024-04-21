@@ -35,6 +35,21 @@
 .control button:hover{
   background: #fff;
 }
+.speed{
+  width: 300px;
+  background: #333;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.speed button{
+  width: 70px;
+  border: 1px solid #fff;
+  color: #f00;
+  background: #666;
+}
 .player{
   width: 100px;
   height: 100px;
